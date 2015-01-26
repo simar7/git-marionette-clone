@@ -914,6 +914,7 @@ setReq.onerror = function() {
             if test_container:
                 self.launch_test_container()
 
+            self.results = []
             results = runner.run(suite)
             self.results.append(results)
 
